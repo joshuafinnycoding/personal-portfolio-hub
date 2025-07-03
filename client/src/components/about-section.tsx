@@ -5,41 +5,41 @@ export default function AboutSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">About Me</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            I'm a creative problem-solver who bridges the gap between design and development
+            A seasoned product leader driving digital transformation across AI, EdTech, and RetailTech
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-slate-600 leading-relaxed">
-              With over 8 years of experience in full-stack development and UI/UX design, I specialize in creating 
-              digital experiences that are both visually stunning and functionally robust. My journey began with a 
-              Computer Science degree from Stanford University, where I discovered my passion for combining technical 
-              expertise with creative design thinking.
+              With over 11 years of founder-like ownership, I specialize in building 0→1 platforms and driving 
+              org-wide transformation. Currently leading product initiatives at Jio Platforms, where I've scaled 
+              teams and built JioTV's product organization from the ground up, serving 50M+ monthly active users.
             </p>
             
             <p className="text-lg text-slate-600 leading-relaxed">
-              I've had the privilege of working with startups and Fortune 500 companies, leading cross-functional teams 
-              and delivering projects that have impacted millions of users. My approach centers on understanding user needs, 
-              iterating rapidly, and building scalable solutions that stand the test of time.
+              My expertise spans Agentic AI, omnichannel strategy, and scalable systems. I've had the privilege 
+              of working with industry leaders including Amazon India's founding team, Tata CLiQ's core team, 
+              and pioneering India's first brand-authorized omnichannel marketplace. I'm passionate about 
+              leveraging emerging technologies to create impactful solutions.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600 mb-2">8+</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">11+</div>
                 <div className="text-slate-600">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-                <div className="text-slate-600">Projects Completed</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">50M+</div>
+                <div className="text-slate-600">Monthly Active Users</div>
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
-                <div className="text-slate-600">Happy Clients</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">10K+</div>
+                <div className="text-slate-600">Store Integrations</div>
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600 mb-2">5</div>
-                <div className="text-slate-600">Awards Won</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">4</div>
+                <div className="text-slate-600">Major Awards</div>
               </div>
             </div>
           </div>

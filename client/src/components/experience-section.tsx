@@ -3,28 +3,36 @@ import { Calendar } from "lucide-react";
 export default function ExperienceSection() {
   const experiences = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      description: "Leading development of enterprise-scale applications using React, Node.js, and AWS. Architected microservices that handle 1M+ daily transactions and reduced system latency by 40%.",
-      skills: ["React", "Node.js", "AWS", "Docker"],
+      title: "Product Lead",
+      company: "JioTV, Jio Platforms Ltd.",
+      period: "Sep 2021 - Present",
+      description: "Scaled product team from 2 to 10 members; built JioTV's product org ground-up. Built and launched Jio's Agentic AI Platform to orchestrate cross-app synergy using LLMs and autonomous agents. Led product roadmap for 50M+ MAUs; sustained NPS >30 and app rating >4.0.",
+      skills: ["Agentic AI", "LLMs", "Product Strategy", "5G Technology"],
       color: "bg-blue-100 text-blue-600"
     },
     {
-      title: "Lead UI/UX Designer",
-      company: "DesignStudio Inc.",
-      period: "2020 - 2022",
-      description: "Spearheaded design systems and user experience strategy for B2B SaaS products. Led a team of 5 designers and increased user engagement by 60% through data-driven design decisions.",
-      skills: ["Figma", "Adobe Creative Suite", "Prototyping", "User Research"],
+      title: "Product Manager",
+      company: "NMIMS Global Access",
+      period: "Sep 2019 - Jul 2021",
+      description: "Core member of a 3-person product team that modernized a legacy academic system into a digital-first EdTech institution. Launched in-house LMS for 10K+ students annually; automated grading/admissions with OCR/NLP. Built AI chatbot to reduce query volume by 50%.",
+      skills: ["EdTech", "LMS", "OCR/NLP", "AI Chatbot"],
       color: "bg-emerald-100 text-emerald-600"
     },
     {
-      title: "Frontend Developer",
-      company: "StartupLab",
-      period: "2018 - 2020",
-      description: "Developed responsive web applications and mobile-first interfaces for early-stage startups. Collaborated with product managers and designers to deliver pixel-perfect implementations.",
-      skills: ["Vue.js", "JavaScript", "SCSS", "Git"],
+      title: "Product Manager",
+      company: "Tata CLiQ",
+      period: "May 2017 - Aug 2019",
+      description: "Part of the 5-member core team that architected India's first brand-authorized omnichannel marketplace. Led integration of 10K+ stores across 100+ brands; enabled 92% store fulfillment and 50% local deliveries. Built inventory sync and phygital APIs in partnership with Unicommerce.",
+      skills: ["Omnichannel", "Marketplace", "API Integration", "Retail Tech"],
       color: "bg-purple-100 text-purple-600"
+    },
+    {
+      title: "Lead - Vision & Catalog Ops",
+      company: "Fynd",
+      period: "Dec 2014 - May 2017",
+      description: "Founding team member (1 of 30); led catalog and imaging infrastructure for India's earliest omnichannel tech stack. Developed product onboarding frameworks for unstructured retailers; automated workflows with RPA + ImageMagick. Mentored a 15-member cross-skilled team.",
+      skills: ["RPA", "ImageMagick", "Catalog Management", "Team Leadership"],
+      color: "bg-orange-100 text-orange-600"
     }
   ];
 

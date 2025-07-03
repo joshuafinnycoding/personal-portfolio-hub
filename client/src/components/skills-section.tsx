@@ -2,39 +2,39 @@ import { Award, Medal, Trophy } from "lucide-react";
 
 export default function SkillsSection() {
   const technicalSkills = [
-    { name: "JavaScript / TypeScript", level: 95 },
-    { name: "React / Next.js", level: 90 },
-    { name: "Node.js / Express", level: 85 },
-    { name: "Python / Django", level: 80 },
-    { name: "AWS / Docker", level: 75 }
+    { name: "Agentic AI / LLMs", level: 95 },
+    { name: "Product Strategy", level: 92 },
+    { name: "OCR / NLP", level: 88 },
+    { name: "Power BI / Tableau", level: 85 },
+    { name: "MySQL / MongoDB", level: 80 }
   ];
 
-  const designSkills = [
-    { name: "UI/UX Design", level: 92 },
-    { name: "Figma / Adobe XD", level: 90 },
-    { name: "Prototyping", level: 88 },
-    { name: "User Research", level: 85 },
-    { name: "Branding", level: 80 }
+  const platformSkills = [
+    { name: "Omnichannel Strategy", level: 95 },
+    { name: "Team Leadership", level: 92 },
+    { name: "RPA / Automation", level: 90 },
+    { name: "API Integration", level: 88 },
+    { name: "Retail Tech", level: 85 }
   ];
 
   const certifications = [
     {
       icon: Award,
-      title: "AWS Solutions Architect",
-      provider: "Amazon Web Services",
+      title: "Emerging Leader Award",
+      provider: "Jio (2023-24)",
       color: "text-blue-600"
     },
     {
       icon: Medal,
-      title: "Google UX Design Certificate",
-      provider: "Google Career Certificates",
+      title: "Executive PG Certificate",
+      provider: "IIM Kozhikode (2022)",
       color: "text-emerald-600"
     },
     {
       icon: Trophy,
-      title: "Best Mobile App Design",
-      provider: "Design Awards 2023",
-      color: "text-blue-600"
+      title: "3× Achiever Award",
+      provider: "Tata CLiQ (2018-19)",
+      color: "text-purple-600"
     }
   ];
 
@@ -71,12 +71,12 @@ export default function SkillsSection() {
             </div>
           </div>
           
-          {/* Design Skills */}
+          {/* Platform Skills */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6">Design Skills</h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">Platform & Leadership</h3>
             
             <div className="space-y-6">
-              {designSkills.map((skill, index) => (
+              {platformSkills.map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-slate-600 font-medium">{skill.name}</span>

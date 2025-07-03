@@ -22,10 +22,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="text-2xl font-bold mb-4">
-              JA<span className="text-blue-600">.</span>
+              JF<span className="text-blue-600">.</span>
             </div>
             <p className="text-slate-300 mb-4">
-              Creating exceptional digital experiences through thoughtful design and clean code.
+              Product & Platform Leader driving digital transformation across AI, EdTech, and RetailTech.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -91,7 +91,7 @@ export default function Footer() {
         
         <div className="border-t border-slate-700 mt-8 pt-8 text-center">
           <p className="text-slate-300">
-            © 2024 John Anderson. All rights reserved.
+            © 2024 Joshua Finny. All rights reserved.
           </p>
         </div>
       </div>

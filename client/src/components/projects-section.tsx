@@ -4,24 +4,24 @@ import { ExternalLink, Github } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with advanced analytics, inventory management, and seamless payment integration.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["React", "Node.js", "MongoDB"],
+      title: "JioTV Agentic AI Platform",
+      description: "Built and launched Jio's Agentic AI Platform to orchestrate cross-app synergy using LLMs and autonomous agents, serving 50M+ monthly active users.",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Agentic AI", "LLMs", "5G Technology", "Product Strategy"],
       color: "bg-blue-100 text-blue-600"
     },
     {
-      title: "Task Management App",
-      description: "Mobile-first productivity app with real-time collaboration, smart notifications, and intuitive task organization.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["React Native", "Firebase", "Redux"],
+      title: "Omnichannel Marketplace",
+      description: "Architected India's first brand-authorized omnichannel marketplace at Tata CLiQ, integrating 10K+ stores across 100+ brands with 92% store fulfillment.",
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Omnichannel", "API Integration", "Retail Tech", "Marketplace"],
       color: "bg-emerald-100 text-emerald-600"
     },
     {
-      title: "Design System",
-      description: "Comprehensive design system with reusable components, documentation, and automated testing for consistency.",
-      image: "https://images.unsplash.com/photo-1559028006-448665bd7c7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Figma", "Storybook", "TypeScript"],
+      title: "EdTech LMS Platform",
+      description: "Modernized legacy academic system into digital-first EdTech institution at NMIMS, launched LMS for 10K+ students with automated grading using OCR/NLP.",
+      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["EdTech", "LMS", "OCR/NLP", "AI Chatbot"],
       color: "bg-purple-100 text-purple-600"
     }
   ];

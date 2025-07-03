@@ -1,8 +1,8 @@
-# Portfolio Website Application
+# Joshua Finny's Portfolio Website
 
 ## Overview
 
-This is a full-stack portfolio website application built with React, Express, and TypeScript. The application serves as a personal portfolio showcasing professional experience, skills, and projects. It features a modern, responsive design using Tailwind CSS and shadcn/ui components.
+This is a full-stack portfolio website application built with React, Express, and TypeScript. The application serves as Joshua Finny's personal portfolio showcasing his 11+ years of experience as a Product & Platform Leader specializing in Agentic AI, omnichannel strategy, and scalable systems. It features a modern, responsive design using Tailwind CSS and shadcn/ui components.
 
 ## System Architecture
 
@@ -91,7 +91,14 @@ The application follows a full-stack architecture with clear separation between 
 
 ```
 Changelog:
-- July 03, 2025. Initial setup
+- July 03, 2025. Initial setup with template portfolio
+- July 03, 2025. Customized portfolio with Joshua Finny's actual resume data:
+  - Updated personal information, contact details, and location
+  - Added real work experience from Jio Platforms, NMIMS, Tata CLiQ, and Fynd
+  - Updated skills to reflect AI/ML, product management, and platform expertise
+  - Added actual certifications and awards from resume
+  - Updated project showcase with real achievements
+  - Fixed CSS import order issue
 ```
 
 ## User Preferences

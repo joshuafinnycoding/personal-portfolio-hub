@@ -15,14 +15,13 @@ export default function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold text-slate-800 mb-6">
-              Hi, I'm <span className="gradient-text">John Anderson</span>
+              Hi, I'm <span className="gradient-text">Joshua Finny</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-slate-600 mb-8">
-              Full-Stack Developer & UI/UX Designer
+              Product & Platform Leader | Agentic AI | Omnichannel Strategy
             </h2>
             <p className="text-lg text-slate-600 mb-8 max-w-lg">
-              Passionate about creating exceptional digital experiences through clean code and intuitive design. 
-              8+ years transforming ideas into scalable, user-centered solutions.
+              11+ years of founder-like ownership across AI, EdTech, RetailTech, and MediaTech — building 0→1 platforms, scaling teams, and driving org-wide transformation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button 
