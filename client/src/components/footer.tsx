@@ -10,7 +10,7 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: "#" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/joshua-finny" },
     { icon: Github, href: "#" },
     { icon: FaDribbble, href: "#" },
     { icon: Twitter, href: "#" }
@@ -79,12 +79,12 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="text-lg font-bold mb-4">Services</h4>
+            <h4 className="text-lg font-bold mb-4">Expertise</h4>
             <ul className="space-y-2">
-              <li className="text-slate-300">Web Development</li>
-              <li className="text-slate-300">Mobile App Development</li>
-              <li className="text-slate-300">UI/UX Design</li>
-              <li className="text-slate-300">Consulting</li>
+              <li className="text-slate-300">Product Strategy</li>
+              <li className="text-slate-300">Digital Transformation</li>
+              <li className="text-slate-300">Team Leadership</li>
+              <li className="text-slate-300">Platform Development</li>
             </ul>
           </div>
         </div>

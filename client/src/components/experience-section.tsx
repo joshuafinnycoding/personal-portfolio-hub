@@ -6,33 +6,41 @@ export default function ExperienceSection() {
       title: "Product Lead",
       company: "JioTV, Jio Platforms Ltd.",
       period: "Sep 2021 - Present",
-      description: "Scaled product team from 2 to 10 members; built JioTV's product org ground-up. Built and launched Jio's Agentic AI Platform to orchestrate cross-app synergy using LLMs and autonomous agents. Led product roadmap for 50M+ MAUs; sustained NPS >30 and app rating >4.0.",
-      skills: ["Agentic AI", "LLMs", "Product Strategy", "5G Technology"],
+      description: "Lead end-to-end product strategy for India's largest live TV streaming platform. Mentor 10-member product team (9 PMs, 1 Designer). Scaled platform to 1,000+ live TV channels, 10,000+ songs, 500+ games serving 50M+ active users. Launched JioTV SVOD aggregator with 10 OTT partners, onboarding 1M+ subscribers.",
+      skills: ["Product Strategy", "Agentic AI", "Team Leadership", "OTT Platforms"],
       color: "bg-blue-100 text-blue-600"
     },
     {
       title: "Product Manager",
-      company: "NMIMS Global Access",
+      company: "NMIMS CDOE",
       period: "Sep 2019 - Jul 2021",
-      description: "Core member of a 3-person product team that modernized a legacy academic system into a digital-first EdTech institution. Launched in-house LMS for 10K+ students annually; automated grading/admissions with OCR/NLP. Built AI chatbot to reduce query volume by 50%.",
-      skills: ["EdTech", "LMS", "OCR/NLP", "AI Chatbot"],
+      description: "Led modernization of legacy university systems through AI and lean tooling. Streamlined admissions and grading with OCR + NLP tools. Deployed NLP-driven chatbot cutting human-handled queries by 50% and reducing cost-per-conversion from INR 9 to INR 5.",
+      skills: ["EdTech", "OCR/NLP", "AI Chatbot", "Process Automation"],
       color: "bg-emerald-100 text-emerald-600"
     },
     {
       title: "Product Manager",
       company: "Tata CLiQ",
       period: "May 2017 - Aug 2019",
-      description: "Part of the 5-member core team that architected India's first brand-authorized omnichannel marketplace. Led integration of 10K+ stores across 100+ brands; enabled 92% store fulfillment and 50% local deliveries. Built inventory sync and phygital APIs in partnership with Unicommerce.",
-      skills: ["Omnichannel", "Marketplace", "API Integration", "Retail Tech"],
+      description: "Core member of 5-member omnichannel strategy team launching India's first brand-authorized marketplace. Integrated 10,000+ stores across 100+ brands. Launched Location-Based Shopping achieving 50% next-day delivery rate and built geofencing solution for in-store walk-ins.",
+      skills: ["Omnichannel Strategy", "Geofencing", "Location-Based Tech", "Retail Innovation"],
       color: "bg-purple-100 text-purple-600"
     },
     {
-      title: "Lead - Vision & Catalog Ops",
+      title: "Lead Vision",
       company: "Fynd",
       period: "Dec 2014 - May 2017",
-      description: "Founding team member (1 of 30); led catalog and imaging infrastructure for India's earliest omnichannel tech stack. Developed product onboarding frameworks for unstructured retailers; automated workflows with RPA + ImageMagick. Mentored a 15-member cross-skilled team.",
-      skills: ["RPA", "ImageMagick", "Catalog Management", "Team Leadership"],
+      description: "Founding team member (1 of 30) at India's first omnichannel tech startup. Led 15-member cross-functional team for cataloging and imaging infrastructure. Reduced cataloging cost per SKU by 60% from ₹40+ to ₹16 via automation. Contributed to systems leading to Fynd's acquisition by Reliance Jio.",
+      skills: ["Founding Team", "Cost Optimization", "Process Automation", "Team Building"],
       color: "bg-orange-100 text-orange-600"
+    },
+    {
+      title: "Services Associate",
+      company: "Amazon India",
+      period: "Aug 2013 - Dec 2014",
+      description: "Early team member (part of 120-member launch cohort) during Amazon India's pilot phase. Onboarded hundreds of SMBs in Mumbai to e-commerce via catalog and inventory management. Supported regional expansion launching operations in Pune and Ahmedabad.",
+      skills: ["Marketplace Launch", "SMB Onboarding", "Catalog Management", "Regional Expansion"],
+      color: "bg-cyan-100 text-cyan-600"
     }
   ];
 

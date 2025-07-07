@@ -12,16 +12,17 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-slate-600 leading-relaxed">
-              With over 11 years of founder-like ownership, I specialize in building 0→1 platforms and driving 
-              org-wide transformation. Currently leading product initiatives at Jio Platforms, where I've scaled 
-              teams and built JioTV's product organization from the ground up, serving 50M+ monthly active users.
+              Currently leading end-to-end product strategy for JioTV—India's largest live TV streaming platform. 
+              I mentor a 10-member product team and spearhead cross-functional collaboration across engineering, 
+              design, content, and ecosystem partners. My work actively contributes to Jio's next-gen agentic AI 
+              platform, integrating intelligent experiences across the Jio ecosystem.
             </p>
             
             <p className="text-lg text-slate-600 leading-relaxed">
-              My expertise spans Agentic AI, omnichannel strategy, and scalable systems. I've had the privilege 
-              of working with industry leaders including Amazon India's founding team, Tata CLiQ's core team, 
-              and pioneering India's first brand-authorized omnichannel marketplace. I'm passionate about 
-              leveraging emerging technologies to create impactful solutions.
+              My expertise combines product vision, technical fluency, and execution rigor. I've been part of 
+              founding teams at Amazon India (120-member launch cohort) and Fynd (1 of 30 founding members), 
+              and was core to Tata CLiQ's omnichannel strategy team. I'm passionate about delivering scalable, 
+              user-centric solutions in fast-paced, high-impact environments.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mt-8">
@@ -31,15 +32,15 @@ export default function AboutSection() {
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
                 <div className="text-3xl font-bold text-blue-600 mb-2">50M+</div>
-                <div className="text-slate-600">Monthly Active Users</div>
+                <div className="text-slate-600">Active Users</div>
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600 mb-2">10K+</div>
-                <div className="text-slate-600">Store Integrations</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">1000+</div>
+                <div className="text-slate-600">TV Channels</div>
               </div>
               <div className="text-center p-4 bg-slate-50 rounded-lg">
-                <div className="text-3xl font-bold text-blue-600 mb-2">4</div>
-                <div className="text-slate-600">Major Awards</div>
+                <div className="text-3xl font-bold text-blue-600 mb-2">10M+</div>
+                <div className="text-slate-600">JioBharat Users</div>
               </div>
             </div>
           </div>

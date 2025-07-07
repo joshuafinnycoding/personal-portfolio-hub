@@ -1,38 +1,38 @@
 import { Award, Medal, Trophy } from "lucide-react";
 
 export default function SkillsSection() {
-  const technicalSkills = [
-    { name: "Agentic AI / LLMs", level: 95 },
-    { name: "Product Strategy", level: 92 },
-    { name: "OCR / NLP", level: 88 },
-    { name: "Power BI / Tableau", level: 85 },
-    { name: "MySQL / MongoDB", level: 80 }
+  const productSkills = [
+    { name: "Product Strategy", level: 95 },
+    { name: "Product Lifecycle Management", level: 92 },
+    { name: "Data-driven Decision Making", level: 90 },
+    { name: "Feature Prioritization", level: 88 },
+    { name: "Roadmap Development", level: 85 }
   ];
 
-  const platformSkills = [
-    { name: "Omnichannel Strategy", level: 95 },
-    { name: "Team Leadership", level: 92 },
-    { name: "RPA / Automation", level: 90 },
-    { name: "API Integration", level: 88 },
-    { name: "Retail Tech", level: 85 }
+  const leadershipSkills = [
+    { name: "Cross-functional Leadership", level: 95 },
+    { name: "Team Building", level: 92 },
+    { name: "Sprint Planning", level: 90 },
+    { name: "User Research", level: 88 },
+    { name: "Growth Hacking", level: 85 }
   ];
 
   const certifications = [
     {
       icon: Award,
       title: "Emerging Leader Award",
-      provider: "Jio (2023-24)",
+      provider: "Jio Media Family (2023-24)",
       color: "text-blue-600"
     },
     {
       icon: Medal,
-      title: "Executive PG Certificate",
+      title: "PG Certificate - IT Management",
       provider: "IIM Kozhikode (2022)",
       color: "text-emerald-600"
     },
     {
       icon: Trophy,
-      title: "3× Achiever Award",
+      title: "3× Achiever Awards",
       provider: "Tata CLiQ (2018-19)",
       color: "text-purple-600"
     }
@@ -44,17 +44,17 @@ export default function SkillsSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Skills & Expertise</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            A comprehensive toolkit for building modern digital experiences
+            A comprehensive toolkit for product leadership and digital transformation
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Technical Skills */}
+          {/* Product Skills */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6">Technical Skills</h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">Product Management</h3>
             
             <div className="space-y-6">
-              {technicalSkills.map((skill, index) => (
+              {productSkills.map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-slate-600 font-medium">{skill.name}</span>
@@ -71,12 +71,12 @@ export default function SkillsSection() {
             </div>
           </div>
           
-          {/* Platform Skills */}
+          {/* Leadership Skills */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-slate-800 mb-6">Platform & Leadership</h3>
+            <h3 className="text-2xl font-bold text-slate-800 mb-6">Leadership & Strategy</h3>
             
             <div className="space-y-6">
-              {platformSkills.map((skill, index) => (
+              {leadershipSkills.map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-slate-600 font-medium">{skill.name}</span>

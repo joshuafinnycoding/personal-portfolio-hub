@@ -21,7 +21,7 @@ export default function HeroSection() {
               Product & Platform Leader | Agentic AI | Omnichannel Strategy
             </h2>
             <p className="text-lg text-slate-600 mb-8 max-w-lg">
-              11+ years of founder-like ownership across AI, EdTech, RetailTech, and MediaTech — building 0→1 platforms, scaling teams, and driving org-wide transformation.
+              Product leader with 11+ years of founder-like ownership across AI, EdTech, RetailTech, and MediaTech. Proven track record of building 0→1 platforms, scaling cross-functional teams, and driving large-scale digital transformation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button 

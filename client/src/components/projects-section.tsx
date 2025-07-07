@@ -4,25 +4,32 @@ import { ExternalLink, Github } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "JioTV Agentic AI Platform",
-      description: "Built and launched Jio's Agentic AI Platform to orchestrate cross-app synergy using LLMs and autonomous agents, serving 50M+ monthly active users.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Agentic AI", "LLMs", "5G Technology", "Product Strategy"],
+      title: "JioTV Platform Transformation",
+      description: "Led product strategy for India's largest live TV platform. Scaled to 1,000+ channels, 10,000+ songs, 500+ games serving 50M+ users. Launched SVOD aggregator with 10 OTT partners, onboarding 1M+ subscribers. Pioneered JioTV for JioBharat reaching 10M+ feature phone users.",
+      image: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["OTT Platform", "Product Strategy", "Feature Phones", "SVOD Aggregation"],
       color: "bg-blue-100 text-blue-600"
     },
     {
-      title: "Omnichannel Marketplace",
-      description: "Architected India's first brand-authorized omnichannel marketplace at Tata CLiQ, integrating 10K+ stores across 100+ brands with 92% store fulfillment.",
+      title: "India's First Omnichannel Marketplace",
+      description: "Core team member launching India's first brand-authorized omnichannel marketplace at Tata CLiQ. Integrated 10,000+ stores across 100+ brands. Built Location-Based Shopping achieving 50% next-day delivery and pioneered geofencing for in-store walk-ins.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["Omnichannel", "API Integration", "Retail Tech", "Marketplace"],
+      tags: ["Omnichannel", "Location-Based Tech", "Geofencing", "Retail Innovation"],
       color: "bg-emerald-100 text-emerald-600"
     },
     {
-      title: "EdTech LMS Platform",
-      description: "Modernized legacy academic system into digital-first EdTech institution at NMIMS, launched LMS for 10K+ students with automated grading using OCR/NLP.",
+      title: "University Digital Transformation",
+      description: "Modernized legacy academic systems at NMIMS through AI and automation. Deployed OCR+NLP tools for admissions/grading, built AI chatbot reducing queries by 50% and cost-per-conversion from INR 9 to INR 5. Created zero-cost agile planning tools.",
       image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
-      tags: ["EdTech", "LMS", "OCR/NLP", "AI Chatbot"],
+      tags: ["EdTech Transformation", "OCR/NLP", "AI Chatbot", "Cost Optimization"],
       color: "bg-purple-100 text-purple-600"
+    },
+    {
+      title: "Fynd Omnichannel Tech Stack",
+      description: "Founding team member (1 of 30) building India's first omnichannel tech startup. Led 15-member team for cataloging infrastructure. Reduced cost per SKU by 60% from ₹40+ to ₹16. Contributed to foundational systems leading to Reliance Jio acquisition.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400",
+      tags: ["Founding Team", "Cost Engineering", "Process Automation", "Startup Scale"],
+      color: "bg-orange-100 text-orange-600"
     }
   ];
 
@@ -32,11 +39,11 @@ export default function ProjectsSection() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-800 mb-4">Featured Projects</h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            A showcase of my recent work spanning web applications, mobile apps, and design systems
+            Key platforms and transformations I've led across AI, EdTech, RetailTech, and MediaTech
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="project-card bg-white rounded-2xl shadow-lg overflow-hidden">
               <img 
