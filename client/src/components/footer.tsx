@@ -10,10 +10,10 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/joshua-finny" },
+    { icon: Linkedin, href: "https://in.linkedin.com/in/joshua-finny" },
     { icon: Github, href: "#" },
     { icon: FaDribbble, href: "#" },
-    { icon: Twitter, href: "#" }
+    { icon: Twitter, href: "https://twitter.com/joshuafinny" }
   ];
 
   return (

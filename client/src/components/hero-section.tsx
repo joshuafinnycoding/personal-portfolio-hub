@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Code } from "lucide-react";
+import { Code, Linkedin, Twitter } from "lucide-react";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -36,6 +36,21 @@ export default function HeroSection() {
                 className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 text-base font-medium transition-all duration-300"
               >
                 Get In Touch
+              </Button>
+            </div>
+            
+            <div className="flex gap-4 justify-center md:justify-start mt-6">
+              <Button variant="outline" size="lg" className="flex items-center gap-2" asChild>
+                <a href="https://in.linkedin.com/in/joshua-finny" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-5 h-5" />
+                  LinkedIn
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" className="flex items-center gap-2" asChild>
+                <a href="https://twitter.com/joshuafinny" target="_blank" rel="noopener noreferrer">
+                  <Twitter className="w-5 h-5" />
+                  Twitter
+                </a>
               </Button>
             </div>
           </div>

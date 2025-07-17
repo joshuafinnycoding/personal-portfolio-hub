@@ -33,10 +33,10 @@ export default function ContactSection() {
   };
 
   const socialLinks = [
-    { icon: Linkedin, href: "https://www.linkedin.com/in/joshua-finny", color: "bg-blue-600 hover:bg-blue-700" },
+    { icon: Linkedin, href: "https://in.linkedin.com/in/joshua-finny", color: "bg-blue-600 hover:bg-blue-700" },
     { icon: Github, href: "#", color: "bg-gray-800 hover:bg-gray-700" },
     { icon: FaDribbble, href: "#", color: "bg-pink-500 hover:bg-pink-600" },
-    { icon: Twitter, href: "#", color: "bg-blue-500 hover:bg-blue-600" }
+    { icon: Twitter, href: "https://twitter.com/joshuafinny", color: "bg-blue-500 hover:bg-blue-600" }
   ];
 
   return (
