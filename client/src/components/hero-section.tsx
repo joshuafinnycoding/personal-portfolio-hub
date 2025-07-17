@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Code, Linkedin, Twitter } from "lucide-react";
+import profileImage from "@assets/IMG_8625_1752752088245.jpg";
 
 export default function HeroSection() {
   const scrollToSection = (sectionId: string) => {
@@ -58,8 +59,8 @@ export default function HeroSection() {
           <div className="flex justify-center md:justify-end animate-slide-up">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500" 
-                alt="John Anderson - Professional headshot" 
+                src={profileImage} 
+                alt="Joshua Finny - Professional headshot" 
                 className="w-80 h-80 rounded-2xl shadow-2xl object-cover border-4 border-white"
               />
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-gradient-to-br from-blue-600 to-emerald-500 rounded-full flex items-center justify-center animate-bounce-gentle">
