@@ -8,10 +8,7 @@ rm -rf dist/
 mkdir -p dist/
 
 # Build the frontend with Vite
-vite build
-
-# Copy static files to root dist directory
-cp -r dist/public/* dist/
+npx vite build
 
 echo "Static build complete!"
 echo "Files available in dist/ directory:"
